@@ -1,0 +1,137 @@
+/* footer ****************************************************************************
+**************************************************************************************/
+
+footer {
+	background-color: $headerbackgroundcolor;
+	width: 100%;
+	margin: 0;
+	min-height: 110px;
+	padding: 5px 0;
+	position: relative;
+	@media screen and (min-width: 650px) {
+		text-align: center;
+	}
+	.social {
+		position: absolute;
+		bottom: 5px;
+		left: 5px;
+		width: 35px;
+		@media screen and (min-width: 650px) {
+		bottom: inital;
+		top: 5px;
+	}
+	}
+	.wi-fi {
+		display: inline-block;
+	}
+	.copy {
+		font-size: 0.7em;
+		@media screen and (min-width: 350px) {
+			font-size: 0.8em;
+		}
+		color: $anchor1;
+		display: inline-block;
+		margin: 0;
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+		a {
+			color: $anchor1;
+			&:hover {
+				color: $footHover;
+			}
+		}
+	}
+}
+
+.foot-location {
+	color: $footertext;
+	display: inline-block;
+	font-size: .9em;
+	@media screen and (min-width: 350px) {
+			font-size: 1em;
+		}
+	padding: 5px 0;
+	max-width: 400px;
+	width: 65%;
+	text-align: center;
+	float: left;
+	@media screen and (min-width: 650px) {
+		float: none;
+	}
+	li {
+		display: block;
+		margin: 0;
+		padding: 3px 0;
+	}
+	&:hover {
+		color: $homeContainers;
+	}
+}
+
+.wifi {
+	display: inline-block;
+	width: 35%;
+	float: left;
+	@media screen and (min-width: 650px) {
+		position: absolute;
+		top: 10px;
+		right: 5px;
+		width: 150px;
+	}
+	h3{
+		color: $footertext;
+		display: inline-block;
+		margin: 0;
+		padding: 12px 0 0 12px;
+	}
+}
+
+.foot-nav {	
+	width: 100%;
+	padding: 10px 0 45px;
+	text-align: center;
+	@media screen and (min-width: 650px) {
+			font-size: .9em;
+		}
+	@media screen and (min-width: 1000px) {
+			font-size: .9em;
+			position: absolute;
+			padding: 0;
+			left: 5px;
+			bottom: 5px;
+	}
+	@media screen and (min-width: 1000px) {
+		max-width: 750px;
+		}
+	li {
+		border-left: 1px solid $anchor1;
+		font-size: .7em;
+		padding: 2px 0 2px 3px;
+		margin: 3px 0 0;
+		width: 115px;
+		@media screen and (min-width: 350px) {
+			font-size: .8em;
+		}
+		@media screen and (min-width: 650px) {
+			font-size: 1em;		
+		}
+		@media screen and (min-width: 1000px) {
+			width: 14%;
+			float: left;
+		}
+		&:first-child {
+			border-left: none;
+		}		
+		a {
+			display: inline-block;
+			width: 100%;
+			@media screen and (min-width: 1000px) {
+				text-align: center;
+			}
+			&:hover {
+				color: $footHover;
+			}
+		}	
+	}
+}

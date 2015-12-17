@@ -1,0 +1,178 @@
+/* drink menu **************************************************
+***************************************************************/
+
+.menu-back {
+	background-color: $menuBack;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.secondary-banner {
+	background: url("../img/ground-sm.jpg") center center no-repeat;
+	background-size: cover;
+	margin-top: 80px;
+	border-bottom: 5px solid $lightBrown;
+	min-height: 570px;
+	@media screen and (min-width: 1000px) {
+			background: url("../img/ground-l.jpg") center center no-repeat;
+			background-size: cover;
+			height: 500px;
+		}
+}
+
+.menu-wrap {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 0;
+}
+
+.menu-title {
+	width: 100%;
+	margin: 100px auto 30px;
+	padding: 5px;
+	max-width: 1000px;
+	text-align: center;
+	h1 {
+		color: $drinkh1;
+		margin: 5px;
+		text-shadow: 0 0 20px #000;
+		@media screen and (min-width: 1000px) {
+			font-size: 2.5em;
+		}
+	}
+}
+
+.button-box {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	div {
+		background: $headerButton; 
+		border-radius: 5px;
+		display: inline-block;
+		width: 48%;
+		height: 50px;
+		margin: 1%;
+		padding: 15px 0;
+		text-align: center;
+		float: left;
+		@media screen and (min-width: 1000px) {
+			width: 225px;
+			float: none;
+		}
+		&:hover {
+			background-color: $headerButtonHover;
+		}
+		p {
+			color: $mainPrint;
+			margin: 0;	
+			font-size: 0.8em;
+			@media screen and (min-width: 350px) {
+			font-size: 1em;
+		}
+		}
+	}
+	hr {
+		border: 0;
+		width: 100%;
+	}
+}
+
+.item-type {
+	margin: 0px 0 20px;
+	padding: 100px 0 0;
+	width: 100%;
+	text-align: center;
+	h2 {
+		background-color: $headerbackgroundcolor;
+		color: $drinkh2;
+		padding: 10px;
+		margin: 10px 0; 
+		border-bottom: 3px solid $lightBrown;
+		border-top: 3px solid $lightBrown;
+		@media screen and (min-width: 1000px) {
+			border-radius: 10px;
+		}
+	}
+	p {
+		margin: 5px
+	}
+}
+
+.item-group {
+	margin: 0px 0 20px;
+	width: 100%;
+	text-align: center;
+	h2 {
+		color: $drinkh3;
+		padding: 20px 0 0;
+		margin: 5px 0; 
+		@media screen and (min-width: 1000px) {
+			border-radius: 10px;
+		}
+	}
+	p {
+		margin: 5px
+	}
+}
+
+#first-option {
+	padding: 0;
+}
+
+.menu-list {
+	width: 100%;
+	min-height: 250px;
+	li {
+		width: 100%;
+		padding: 10px;
+		text-align: left;
+		@media screen and (min-width: 1000px) {
+			width: 50%;
+			float: left;
+			padding: 0 10px;
+			min-height: 105px;
+		}
+		h3{
+			color: $drinkh3;
+			margin: 0;
+			padding: 15px 0 0;
+		}
+		p {
+			margin: 0;
+			padding: 5px 0;
+		}
+	}
+}
+
+.menu-list2 {
+	width: 100%;
+	min-height: 150px;
+	li {
+		width: 100%;
+		padding: 10px;
+		text-align: left;
+		text-align: center;
+		@media screen and (min-width: 1000px) {
+			width: 33.3%;
+			float: left;
+		}
+		h3{
+			color: $drinkh3;
+			margin: 0;
+			padding: 15px 0 0;
+		}
+		p {
+			margin: 0;
+			padding: 5px 0;
+		}
+	}
+}
+
+#beers {
+	width: 100%;
+}

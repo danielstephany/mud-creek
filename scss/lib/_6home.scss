@@ -1,0 +1,80 @@
+/* home page *************************************************************************
+*************************************************************************************/
+
+.banner {
+	background: url("../img/mug-sm.jpg") no-repeat center center;
+	background-size: cover;
+	@media screen and (min-width: 600px) {
+		background: url("../img/mug-m.jpg") no-repeat center center;
+		background-size: cover;
+		}
+	@media screen and (min-width: 1000px) {
+		background: url("../img/mug-l.jpg") no-repeat center center;
+		background-size: cover;
+		}
+	border-bottom: 5px solid $lightBrown;
+	margin-top: 80px;
+}
+
+.home-info {
+	width: 100%;
+	max-width: 1700px;
+}
+
+.discription {
+	background-color: $homeContainers;
+	border-bottom: 5px solid $lightBrown;
+	margin: 0;
+	min-height: 220px;
+	width: 100%;
+	text-align: center;
+	@media screen and (min-width: 850px) {
+			width: 65%;
+			float: left;
+			min-height: 250px;
+		}
+	.textWrap {
+		text-align: left;
+		max-width: 700px;
+		p {
+			display: inline-block;
+			margin: 0;
+			padding: 10px;
+		}
+	}	
+}
+
+.contact {
+	text-align: center;
+	background-color: $homeContainers;
+	border-bottom: 5px solid $lightBrown;
+	margin: 0;
+	min-height: 220px;
+	width: 100%;
+	@media screen and (min-width: 850px) {
+				width: 35%;
+				float: right;
+				min-height: 250px;
+			}
+	ul {
+		margin-top: 20px;
+		li {
+			color: $mainPrint;
+			display: inline-block;
+			width: 100%;
+			padding: 4px;
+		}
+	}
+}
+
+.title {
+	background-color: $headerbackgroundcolor;
+	color: $headertext;
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	h2 {
+		margin: 5px;
+	}
+}

@@ -1,0 +1,59 @@
+/* base styles ************************************************************
+***************************************************************************/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $anchor1;
+	&:hover {
+		color: $anchor2;
+	}
+}
+
+p {
+	color: $mainPrint;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+	font-family: 'Lato', sans-serif;
+}
